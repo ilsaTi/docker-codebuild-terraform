@@ -32,10 +32,4 @@ variable "codebuild_params" {
 variable "environment_variables" {
   description = "Environment variables"
   type = map(string)
-  default = {
-      "AWS_DEFAULT_REGION" = "us-east-1"
-      "AWS_ACCOUNT_ID" = "886774924794"
-      "IMAGE_REPO_NAME" = "demo"
-      "IMAGE_TAG" = "latest"
-  }
 }
